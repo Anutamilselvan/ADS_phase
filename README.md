@@ -1,5 +1,5 @@
 # Future Sales Prediction in Data Science: 
-ADS related to project submission:
+  # ADS related to project submission:
 source code:https://www.kaggle.com/code/adhikariaman01/advertising-tv-radio-newspaper (reference kaggle.com)
    This repository contains the code for predicting future sales using data science techniques. The project aims to forecast sales for a given period based on historical sales data.
 # Required Python libraries: 
@@ -11,10 +11,10 @@ source code:https://www.kaggle.com/code/adhikariaman01/advertising-tv-radio-news
    pip install -r requirements.txt
 How to Run the Code
    Clone the repository to your local machine:
-   git clone https://github.com/Anutamilselvan/ADS_phase/future-sales-prediction.git
+# git clone https://github.com/Anutamilselvan/ADS_phase/future-sales-prediction.git
 cd future-sales-prediction
 Run the main.py script to execute the prediction model:
-python main.py
+  python main.py
 The script will process the data, train the model, and output the predicted sales for the specified period.
 # Project Structure
   The project is organized as follows:
