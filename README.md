@@ -1,7 +1,9 @@
 # Future Sales Prediction in Data Science: 
-  # ADS related to project submission:
+  # ADS  related to project submission:
+  
 source code:https://www.kaggle.com/code/adhikariaman01/advertising-tv-radio-newspaper (reference kaggle.com)
-   This repository contains the code for predicting future sales using data science techniques. The project aims to forecast sales for a given period based on historical sales data.
+
+    This repository contains the code for predicting future sales using data science techniques. The project aims to forecast sales for a given period based on historical sales data.
 # Required Python libraries: 
  1.pandas,
  2.numpy, 
