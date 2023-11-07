@@ -7,25 +7,27 @@ source code:https://www.kaggle.com/code/adhikariaman01/advertising-tv-radio-news
  2.numpy, 
  3.scikit-learn,
  # matplotlib
- You can install the required libraries using the following command:
- pip install -r requirements.txt
+   You can install the required libraries using the following command:
+   pip install -r requirements.txt
 How to Run the Code
-Clone the repository to your local machine:
-git clone https://github.com/Anutamilselvan/ADS_phase/future-sales-prediction.git
+   Clone the repository to your local machine:
+   git clone https://github.com/Anutamilselvan/ADS_phase/future-sales-prediction.git
 cd future-sales-prediction
 Run the main.py script to execute the prediction model:
 python main.py
 The script will process the data, train the model, and output the predicted sales for the specified period.
 # Project Structure
-The project is organized as follows:
- data/: Contains the input data files.
- src/: Contains the source code files.
- data_processing.py: Handles data preprocessing tasks.
- model.py: Defines the machine learning model for sales prediction.
- main.py: Main script to run the prediction model.
-requirements.txt:  Python libraries required for the project.
+  The project is organized as follows:
+   data/: Contains the input data files.
+   src/: Contains the source code files.
+   data_processing.py: Handles data preprocessing tasks.
+   model.py: Defines the machine learning model for sales prediction.
+    main.py: Main script to run the prediction model.
+# requirements.txt:  Python libraries required for the project.
 # Customization
     You can customize the prediction model, feature engineering techniques, and hyperparameters in the model.py file. Additionally, you can modify the data preprocessing steps in the data_processing.py file to better suit your dataset.
+# Dataset source:
+    The dataset used for predicting future sales is sourced from a retail's company internal sales database .The company has collected sales data over the past several years ,including various factors that can influence sales such as product information, store location,histrocial sales figures, promotions and seasonal trends.
 # Dataset Description:
    The dataset consists of structured data containing multiple attributes, each providing valuable insights into the sales patterns and trends. Here's a brief description of the key attributes in the dataset:
 Dataset:https://www.kaggle.com/datasets/chakradharmattapalli/future-sales-prediction
@@ -46,5 +48,6 @@ Dataset:https://www.kaggle.com/datasets/chakradharmattapalli/future-sales-predic
 # Seasonal Factors:
    Indicators of seasonal influences, such as holidays, festivals, and special events, affecting consumer behavior and purchasing patterns.
 # Historical Sales Data: 
-    Previous sales data for each product, enabling the analysis of growth or decline in sales over time.# Results
+    Previous sales data for each product, enabling the analysis of growth or decline in sales over time.
+# Results
    After running the main.py script, the predicted sales results will be stored in an output file or displayed in the console, depending on the implementation. 
